@@ -1,0 +1,17 @@
+{
+  "name": "web-push-notifications",
+  "version": "1.0.0",
+  "description": "Minimal Web Push Notifications demo using Service Workers and the web-push library",
+  "main": "push.js",
+  "scripts": {
+    "keys": "web-push generate-vapid-keys",
+    "serve": "npx serve .",
+    "send": "node --env-file=.env push.js"
+  },
+  "keywords": ["web-push", "service-worker", "notifications", "vapid", "pwa"],
+  "author": "Anas El-Bahrawy",
+  "license": "MIT",
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
